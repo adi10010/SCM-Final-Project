@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Online Ordering</title>
-  
+  <script src="https://use.fontawesome.com/7488f3a572.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery-3.4.1.min.js"></script> -->
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 
 
@@ -219,7 +223,22 @@
  
 
 
-   
+    <script  src="scriptt.js"></script>
+
+<script>
+
+$(document).ready(function() {
+            $('.popup-map').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+            
+        }); 
+</script>
 
 
 </body>

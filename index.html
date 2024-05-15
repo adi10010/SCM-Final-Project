@@ -9,7 +9,8 @@
     <!--main css-->
     <link rel="stylesheet" href="css/main.css">
     <!--font awesome js-->
-     <!--google fonts-->
+    <script src="js/all.js"></script>
+    <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
     <!--magnifix popup-->
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
@@ -279,6 +280,49 @@
  
    
    
-  
+    <!--jquery-->
+    <script src="Js/jquery-3.4.1.min.js"></script>
+    <!--bootstrap-->
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <!--ripple-->
+    <script src="js/jquery.ripples-min.js"></script>
+    <!--magnific popup-->
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <!--js-->
+    <script src="js/script.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-database.js"></script>
+    
+    <script>
+
+     //console.log("helllo");
+
+           // Your web app's Firebase configuration
+           var firebaseConfig = {
+        apiKey: "AIzaSyA31DCogiFh5-6nqka-onPDqXEXefkUD20",
+        authDomain: "uggghh-eaecd.firebaseapp.com",
+        databaseURL: "https://uggghh-eaecd.firebaseio.com",
+        projectId: "uggghh-eaecd",
+        storageBucket: "uggghh-eaecd.appspot.com",
+        messagingSenderId: "1065017607625",
+        appId: "1:1065017607625:web:2831a3b55ee3bd4e"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+
+        var database = firebase.database().ref();
+        console.log("database " + database );
+
+       // var userId = firebase.auth().currentUser.uid;
+        database.once('value').then(function(snapshot) {
+        //var username = (snapshot.val() && snapshot.val().username) || 'Anonymous';
+
+     console.log("The given item is ->  " + snapshot.val().order[2].item);
+});
+</script>
 </body>
 </html>
