@@ -18,6 +18,13 @@ body{
 .info h2{
     word-spacing: 0.6rem;
 }
+
+.info a{
+    transition: color 2s ease-in-out ;
+}
+.info a:hover{
+    color: #242424;
+}
 /*header*#############*/
 #header{
     min-height:calc(100vh - 94px);
@@ -43,6 +50,20 @@ body{
     animation-fill-mode: forwards;
 }
 
+@keyframes fromLeft{
+    0%{
+        transform:translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform:translateX(30px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .main-btn{
     color: #d3325f;
     font-size: 2rem;
@@ -63,6 +84,20 @@ body{
     animation-fill-mode: forwards;
 }
 
+@keyframes fromRight{
+    0%{
+        transform:translateX(100px);
+        opacity: 0;
+    }
+    50%{
+        transform:translateX(-30px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .header-link{
     display: inline block;
     position:absolute;
@@ -77,6 +112,17 @@ body{
 }
 .header-link:hover{
     color: #224422;
+}
+@keyframes fromBottom{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform:translateY(-10px);
+    }
 }
 
 /* navbar*/
