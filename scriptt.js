@@ -42,6 +42,16 @@ $(document).ready(function() {
                 width: "400px",
               closeText: "X"});
     })
+    
+    $("#addToCartChowmien").on("click", function () {
+        $("#checkOrderChowmien").dialog({
+                hide: "blind",
+                show : "blind",
+                width: "400px",
+              closeText: "X"});
+    })
+
+
 
 
 
