@@ -215,12 +215,6 @@ $(document).ready(function() {
             
         });   
 
-
-
-    
-     
-
-
 })
 
 
