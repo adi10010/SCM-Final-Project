@@ -165,6 +165,15 @@ $(document).ready(function() {
             numOfOrders = $("#listOfOrders").children().length;
             $(".num").text(numOfOrders);
         })
+            }); // List over (done button)
+
+    $(".finishOrder").on("click", function () {
+     $("#finalOrderList > ol").children().remove();
+        $(".orderName").children("span").each(function(){
+            var finalOrder = '<li>' + $(this).text() + '</li>';
+            $("#finalOrderList > ol").append(finalOrder);
+        })
+
 
 
 
