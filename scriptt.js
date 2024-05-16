@@ -114,6 +114,15 @@ $(document).ready(function() {
                 $('#recipe3').children('li').click(checkboxChange(6));
 
                 $(this).parent().remove();
+                            }else{
+                $("#newIngredient").attr("placeholder", "Please add ingrediant");
+            }
+        });
+        // Remove button hides the input
+        $(".addIngredientWrap > .cancelInput").on("click", function () {
+            $(this).parent().remove();
+        })
+
 
 
 
