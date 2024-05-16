@@ -309,10 +309,14 @@ nav-link{
     clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%)
 
 }
-
-
 .review-img {
     width: 150px;
+}
+/*footer*/
+#back-to-top {
+    background: #c9c1ac;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 
