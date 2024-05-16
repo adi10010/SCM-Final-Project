@@ -201,6 +201,28 @@ $(document).ready(function() {
             $("#buyerInfo").append('<p>Fill up all the inputs</p>');
         }
     })
+        //pop-up map
+
+        $(document).ready(function() {
+            $('.popup-map').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+            
+        });   
+
+
+
+    
+     
+
+
+})
+
 
 
 
