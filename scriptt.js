@@ -181,6 +181,27 @@ $(document).ready(function() {
         closeText: "X"
         });
     })
+        $(".order").on("click", function () {
+        var name = $("#buyerName").val();
+        var number = $("#buyerNumber").val();
+        var address = $("#buyerAddress").val();
+
+        if (name != "" && number != "" && address != "") {
+            $("#finishOrderDialog").dialog("close");
+            $("#buyerInfo").children("p").remove();
+            $("#thanksMessage").dialog({
+                hide: "blind",
+                show : "blind",
+                width: "400px"
+            });
+            setTimeout(function(){
+                $("#thanksMessage").dialog("close");
+            }, 5000);
+        }else{
+            $("#buyerInfo").append('<p>Fill up all the inputs</p>');
+        }
+    })
+
 
 
 
