@@ -315,6 +315,12 @@ nav-link{
 .review-img {
     width: 150px;
 }
+/*footer*/
+#back-to-top {
+    background: #c9c1ac;
+    border-radius: 10px;
+    display: inline-block;
+}
 
 
 
