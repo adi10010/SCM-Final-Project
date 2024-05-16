@@ -50,6 +50,14 @@ $(document).ready(function() {
                 width: "400px",
               closeText: "X"});
     })
+        $("#addToCartbiryani").on("click", function () {
+        $("#checkOrderbiryani").dialog({
+                hide: "blind",
+                show : "blind",
+                width: "400px",
+              closeText: "X"});
+    })
+
 
 
 
