@@ -173,6 +173,16 @@ $(document).ready(function() {
             var finalOrder = '<li>' + $(this).text() + '</li>';
             $("#finalOrderList > ol").append(finalOrder);
         })
+        
+        $("#finishOrderDialog").dialog({
+            hide: "blind",
+            show : "blind",
+            width: "500px",
+        closeText: "X"
+        });
+    })
+
+
 
 
 
