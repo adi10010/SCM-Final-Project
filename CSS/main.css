@@ -251,6 +251,59 @@ nav-link{
     padding: 0 0.4 rem;
 
 }
+/* aboutttttttttttttttt*/
+.about-picturtes {
+    position: relative;
+}
+
+.about-image {
+    position: absolute;
+    width: 150px;
+    transition: all 2s ease;
+    opacity: 0.9;
+}
+
+.img-1{
+    left: 0%;
+    top: 0%;
+}
+
+
+
+.img-2{
+    left: 20%;
+    top: 20%;
+    z-index: 10;
+}
+
+.img-3{
+    left: 40%;
+    top: 45%;
+    z-index: 20;
+}
+
+.img-4{
+    left: 40%;
+    top: -20%;
+}
+
+.img-5 {
+    left: 0%;
+    top: 45%;
+}
+
+.about-image:hover {
+    outline: 10px solid #d3325f;
+    outline-offset: 0.8rem;
+    transform: scale(1.3) rotate(20deg);
+    z-index: 30;
+    opacity: 1;
+}
+
+.about-pictures:hover .about-image:not(:hover) {
+    opacity: 0.5;
+
+}
 
 
 
