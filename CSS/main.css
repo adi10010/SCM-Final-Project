@@ -96,6 +96,33 @@ body{
         opacity: 1;
     }
 }
+.header-link{
+    display: inline block;
+    position:absolute;
+    bottom: 5%;
+    left: 50%;
+    background: #c9c1ac;
+    border-radius:10px;
+    transition: all 2s ease;
+    animation:fromBottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.header-link:hover{
+    color: #224422;
+}
+@keyframes fromBottom{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform:translateY(-10px);
+    }
+}
+
 
 
 
