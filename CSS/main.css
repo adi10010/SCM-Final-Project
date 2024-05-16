@@ -304,6 +304,17 @@ nav-link{
     opacity: 0.5;
 
 }
+/*review section*/
+.review-item {
+    background: rgba(255, 255, 255, 0.7);
+    clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%)
+
+}
+
+
+.review-img {
+    width: 150px;
+}
 
 
 
