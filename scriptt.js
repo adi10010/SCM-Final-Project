@@ -19,3 +19,12 @@ $(document).ready(function() {
                 width: "400px",
               closeText: "X"});
     })
+    
+    $("#addToCartMomo").on("click", function () {
+        $("#checkOrderMomo").dialog({
+                hide: "blind",
+                show : "blind",
+                width: "400px",
+              closeText: "X"});
+    })
+
