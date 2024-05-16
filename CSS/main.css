@@ -121,3 +121,23 @@ body{
         transform:translateY(-10px);
     }
 }
+/* navbar*/
+.navbar {
+    background: #c9c1ac;
+    padding: 20px 20px;
+    transition: all 2s ease;
+}
+
+.navbar-background {
+    padding: 5px 20px;
+    
+}
+
+.navbar-brand {
+    font-size: 30px;
+    transition: all 1s ease;
+}
+
+.navbar-brand:hover {
+   color: #242424;
+}
