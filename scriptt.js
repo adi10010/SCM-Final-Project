@@ -34,5 +34,14 @@ $(document).ready(function() {
                 width: "400px",
               closeText: "X"});
     })
+    
+    $("#addToCartFries").on("click", function () {
+        $("#checkOrderFries").dialog({
+                hide: "blind",
+                show : "blind",
+                width: "400px",
+              closeText: "X"});
+    })
+
 
 
