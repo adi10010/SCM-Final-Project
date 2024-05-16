@@ -66,6 +66,21 @@ $(document).ready(function() {
                 priceDialog+=3;
             }
 
+                $("#totalDialog"+x+">span").text(priceDialog);
+            $(this).change(function () {
+                if ($(this).is(":checked")) {
+                    priceDialog += 3;
+                    console.log(priceDialog);
+                    $("#totalDialog"+x+">span").text(priceDialog);
+                }else{
+                    priceDialog -= 3;
+                    $("#totalDialog"+x+">span").text(priceDialog);
+                }
+            })
+        });
+    }
+
+
 
 
 
