@@ -57,6 +57,15 @@ $(document).ready(function() {
                 width: "400px",
               closeText: "X"});
     })
+    
+    // increase/decrease the price of order if an item is added/removed
+    function checkboxChange(x) {
+        var priceDialog = 0;
+        $("#recipe"+x).children("li").children("input").each(function () {
+            if($(this).is(":checked")){
+                priceDialog+=3;
+            }
+
 
 
 
