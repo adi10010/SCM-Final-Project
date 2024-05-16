@@ -95,6 +95,17 @@ $(document).ready(function() {
         $(this).parent().children("ul").after(inputWrap);
     $("#newIngredient").focus();
     $("#newIngredient").attr("placeholder", "separate ingredients with a comma");
+                    // Confirm button adds the new ingrediant to the list of ingrediants
+        $(".addIngredientWrap > .confirmInput").on("click", function () {
+            if ($("#newIngredient").val() != "") {
+        //split takes the value of the input and splits it into separate array elements after every comma
+                var newIngredient = ($(".addIngredientWrap input").val()).split(",");
+                var newCheckbox = '<input type="checkbox" checked>';
+
+        for (var i = 0; i < newIngredient.length; i++){
+         $(this).parent().siblings("ul").append("<li>" + newCheckbox + newIngredient[i] + "  (+Rs.3)</li>");
+        }
+
 
 
 
