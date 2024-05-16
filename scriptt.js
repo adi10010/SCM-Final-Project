@@ -27,4 +27,12 @@ $(document).ready(function() {
                 width: "400px",
               closeText: "X"});
     })
+        $("#addToCartPizza").on("click", function () {
+        $("#checkOrderPizza").dialog({
+                hide: "blind",
+                show : "blind",
+                width: "400px",
+              closeText: "X"});
+    })
+
 
