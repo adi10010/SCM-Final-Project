@@ -135,6 +135,21 @@ $(document).ready(function() {
             var selectedIngredient = $(this).parent().text();
             $(".orderIngredients").last().append("<li>" + selectedIngredient + "</li>");
         })
+                // opens the cart side menu
+        if ($('#cartToggle').prop('checked')) {
+            $("#cartToggle").prop("checked", true);
+        }else{
+            $("#cartToggle").prop("checked", true);
+        }
+
+        $(this).parent(".ui-dialog-content").dialog("close");
+
+        numOfOrders = $("#listOfOrders").children().length;
+        $(".num").text(numOfOrders);
+
+        // display total price in cart orders
+        var totalOrderPrice = 0;
+
 
 
 
