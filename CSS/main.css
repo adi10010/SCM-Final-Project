@@ -74,3 +74,24 @@ body{
     border: 2px solid #c9c1ac;
     background: #c9c1ac;
 }
+.sushi-btn{
+    animation: fromRight;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fromRight{
+    0%{
+        transform:translateX(100px);
+        opacity: 0;
+    }
+    50%{
+        transform:translateX(-30px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
