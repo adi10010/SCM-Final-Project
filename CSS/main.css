@@ -165,6 +165,11 @@ nav-link{
     border: 2px solid #242424;
     transform: rotate(10deg)
 }
+.toggler-btn{
+    border: 2px solid #d3325f;
+    padding: 5px;
+    transition: all 2s ease;
+}
 
 
 
