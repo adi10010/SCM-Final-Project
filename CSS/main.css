@@ -321,6 +321,12 @@ nav-link{
     border-radius: 10px;
     display: inline-block;
 }
+.scrollTop {
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+}
+
 
 
 
