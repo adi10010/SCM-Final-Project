@@ -27,14 +27,17 @@ PetPooja is a comprehensive food ordering website developed using HTML, CSS, and
 **Project Roles:**
 
 **Project Manager**- Adish Jain
+
 A proficient project manager for a front-end project orchestrates seamless collaboration between designers and developers, ensuring alignment with client requirements and industry best practices. They adeptly navigate timelines, prioritize tasks, and foster a creative environment conducive to innovation and efficient delivery.
 
 
 **Developer**- Aditya Kanwar
+
 The developer behind the code of a front-end project brings vision to life through meticulous coding, crafting user-centric experiences with precision and creativity. Their expertise lies in translating design concepts into functional, responsive interfaces, optimizing performance and usability for seamless user interaction.
 
 
 **Tester**- Adwit Dhiman
+
 The tester diligently scrutinizes the front-end code, meticulously hunting for bugs and glitches to ensure the final product meets the highest standards of quality and reliability. Their keen eye for detail and systematic approach uncovers potential pitfalls, allowing for thorough debugging and refinement, ultimately delivering a polished and flawless user experience.
 
 **Challenges Faced:**
