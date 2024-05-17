@@ -25,6 +25,7 @@ PetPooja is a comprehensive food ordering website developed using HTML, CSS, and
 7. **Backend Integration:** Integration with backend systems for processing orders, managing inventory, and generating invoices.
 
 **Project Roles:**
+
 **Project Manager**- Adish Jain
 A proficient project manager for a front-end project orchestrates seamless collaboration between designers and developers, ensuring alignment with client requirements and industry best practices. They adeptly navigate timelines, prioritize tasks, and foster a creative environment conducive to innovation and efficient delivery.
 
