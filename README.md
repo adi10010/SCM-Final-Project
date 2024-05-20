@@ -1,9 +1,9 @@
-**Project Report: PetPooja - Food Ordering Website**
+# **Project Report: PetPooja - Food Ordering Website**
 
-**Introduction:**
+# **Introduction:**
 PetPooja is a comprehensive food ordering website developed using HTML, CSS, and JavaScript. The project aims to provide users with a seamless experience in browsing and ordering food items from various restaurants. It incorporates a user-friendly interface coupled with efficient backend functionality to ensure smooth navigation and transaction processing.
 
-**Project Objectives:**
+# **Project Objectives:**
 1. Develop a user-friendly website for ordering food online.
 2. Implement an intuitive interface for browsing different restaurants and their menus.
 3. Enable users to select food items and place orders securely.
